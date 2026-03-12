@@ -1,43 +1,215 @@
- * 0.4 - 0.2).toFixed(1);
-                const newValue = Math.min(10, Math.max(0, parseFloat(threatValue.textContent) + parseFloat(randomChange)));
-                threatValue.textContent = newValue.toFixed(1);
-                threatValue.parentElement.style.animation = 'none';
-                setTimeout(() => {
-                    threatValue.parentElement.style.animation = 'pulse 0.5s ease';
-                }, 10);
+50%); color: #da0000; font-size: 24px;">☫</div>
+                        </div>
+                        <div class="country-info">
+                            <h3>伊朗伊斯兰共和国</h3>
+                            <p>区域军事大国</p>
+                        </div>
+                    </div>
+                    <div class="country-data">
+                        <div class="data-row">
+                            <span class="data-label">总兵力</span>
+                            <span class="data-value">610,000</span>
+                        </div>
+                        <div class="data-row">
+                            <span class="data-label">革命卫队</span>
+                            <span class="data-value">190,000</span>
+                        </div>
+                        <div class="data-row">
+                            <span class="data-label">导弹库存</span>
+                            <span class="data-value">3,000+ 枚</span>
+                        </div>
+                        <div class="data-row">
+                            <span class="data-label">无人机能力</span>
+                            <span class="data-value">先进水平</span>
+                        </div>
+                        <div class="data-row">
+                            <span class="data-label">战略优势</span>
+                            <span class="data-value">导弹 · 代理网络</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 科技能力 -->
+        <section class="tech-section">
+            <h2 class="section-title">军事科技能力分析</h2>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="tech-icon">🛰️</div>
+                    <div class="tech-title">太空与网络战</div>
+                    <div class="tech-desc">
+                        <strong>美国:</strong> GPS III卫星系统，星链网络，网络司令部<br>
+                        <strong>以色列:</strong> 铁穹卫星支持，先进网络情报<br>
+                        <strong>伊朗:</strong> 侦察卫星，网络攻击能力
+                    </div>
+                </div>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">✈️</div>
+                    <div class="tech-title">空中优势</div>
+                    <div class="tech-desc">
+                        <strong>美国:</strong> F-22/F-35五代机优势，全球打击能力<br>
+                        <strong>以色列:</strong> F-35I定制版，先进电子战系统<br>
+                        <strong>伊朗:</strong> 无人机群战术，区域防空系统
+                    </div>
+                </div>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">🚀</div>
+                    <div class="tech-title">导弹系统</div>
+                    <div class="tech-desc">
+                        <strong>美国:</strong> 精准制导导弹，全球快速部署<br>
+                        <strong>以色列:</strong> 箭式反导系统，精准打击能力<br>
+                        <strong>伊朗:</strong> 中程弹道导弹，区域覆盖优势
+                    </div>
+                </div>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">🛡️</div>
+                    <div class="tech-title">防御体系</div>
+                    <div class="tech-desc">
+                        <strong>美国:</strong> 爱国者，THAAD，宙斯盾系统<br>
+                        <strong>以色列:</strong> 铁穹，大卫投石索，多层防御<br>
+                        <strong>伊朗:</strong> 巴瓦尔-373，Khordad-15防空系统
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 威胁评估 -->
+        <section class="threat-section">
+            <h2 class="section-title">当前威胁评估</h2>
+            <div class="threat-level">
+                <div class="threat-title">
+                    <span>⚠️</span> 主要威胁区域
+                </div>
+                <ul class="threat-items">
+                    <li class="threat-item">
+                        <span class="threat-text">波斯湾航运安全</span>
+                        <span class="threat-score">8.2/10</span>
+                    </li>
+                    <li class="threat-item">
+                        <span class="threat-text">叙利亚代理冲突</span>
+                        <span class="threat-score">7.5/10</span>
+                    </li>
+                    <li class="threat-item">
+                        <span class="threat-text">也门红海航道</span>
+                        <span class="threat-score">6.8/10</span>
+                    </li>
+                    <li class="threat-item">
+                        <span class="threat-text">核协议谈判僵局</span>
+                        <span class="threat-score">7.0/10</span>
+                    </li>
+                    <li class="threat-item">
+                        <span class="threat-text">网络攻击频率</span>
+                        <span class="threat-score">6.5/10</span>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="tech-card">
+                <div class="tech-icon">📈</div>
+                <div class="tech-title">趋势分析</div>
+                <div class="tech-desc">
+                    • 无人机技术竞赛持续加剧<br>
+                    • 网络战成为新维度战场<br>
+                    • 精准打击能力普遍提升<br>
+                    • 区域代理冲突模式持续<br>
+                    • 防御系统技术快速迭代
+                </div>
+            </div>
+        </section>
+        
+        <!-- 页脚 -->
+        <footer class="footer">
+            <div class="footer-logo">中东军事态势分析系统</div>
+            <div class="footer-info">
+                专业情报分析 · 实时数据监控 · 战略态势评估<br>
+                最后更新: <span id="footer-time">2026-03-12 15:31</span> · 安全等级: 机密
+            </div>
+            <div class="footer-tags">
+                <span class="tag">实时监控</span>
+                <span class="tag">数据分析</span>
+                <span class="tag">威胁评估</span>
+                <span class="tag">战略情报</span>
+                <span class="tag">军事科技</span>
+            </div>
+        </footer>
+    </div>
+    
+    <script>
+        // 更新时间
+        function updateTime() {
+            const now = new Date();
+            const timeStr = now.toLocaleString('zh-CN', {
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit',
+                timeZone: 'Asia/Shanghai'
+            }).replace(/\//g, '-');
+            
+            document.getElementById('update-time').textContent = 
+                now.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit', timeZone: 'Asia/Shanghai' });
+            document.getElementById('footer-time').textContent = timeStr;
+        }
+        
+        // 初始化和定时更新
+        updateTime();
+        setInterval(updateTime, 60000); // 每分钟更新一次
+        
+        // 数据卡片交互
+        const cards = document.querySelectorAll('.country-card, .tech-card, .overview-card');
+        cards.forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.boxShadow = '0 8px 25px rgba(0, 0, 0, 0.2)';
+            });
+            card.addEventListener('mouseleave', () => {
+                card.style.boxShadow = 'none';
+            });
+        });
+        
+        // 威胁指数动态更新（模拟）
+        function updateThreatScores() {
+            const scores = document.querySelectorAll('.threat-score');
+            scores.forEach(score => {
+                const current = parseFloat(score.textContent.split('/')[0]);
+                const change = (Math.random() * 0.4 - 0.2).toFixed(1);
+                const newScore = Math.min(10, Math.max(0, current + parseFloat(change)));
+                score.textContent = `${newScore.toFixed(1)}/10`;
+                
+                // 颜色变化
+                if (newScore >= 8) {
+                    score.style.color = 'var(--alert-red)';
+                    score.style.background = 'rgba(197, 48, 48, 0.2)';
+                } else if (newScore >= 6) {
+                    score.style.color = 'var(--warning-orange)';
+                    score.style.background = 'rgba(221, 107, 32, 0.2)';
+                } else {
+                    score.style.color = 'var(--success-green)';
+                    score.style.background = 'rgba(56, 161, 105, 0.2)';
+                }
+            });
+        }
+        
+        // 每30秒更新威胁指数
+        setInterval(updateThreatScores, 30000);
+        
+        // 概览数据动态更新
+        function updateOverview() {
+            const overviewValue = document.querySelector('.overview-value');
+            if (overviewValue && overviewValue.textContent === '2.1M') {
+                const randomChange = Math.floor(Math.random() * 50000);
+                const newValue = 2100000 + randomChange;
+                overviewValue.textContent = (newValue / 1000000).toFixed(1) + 'M';
             }
         }
         
-        // 每30秒更新一次威胁指数
-        setInterval(updateThreatIndex, 30000);
+        setInterval(updateOverview, 45000);
         
-        // 地图标记动画
-        const markers = document.querySelectorAll('.map-container div[style*="position: absolute"]');
-        markers.forEach((marker, index) => {
-            marker.style.animationDelay = `${index * 0.5}s`;
-        });
-        
-        // 军事术语闪烁效果
-        const militaryTerms = document.querySelectorAll('.force-name, .tech-name, .threat-title');
-        militaryTerms.forEach(term => {
-            term.addEventListener('mouseenter', function() {
-                this.style.textShadow = '0 0 15px currentColor';
-            });
-            term.addEventListener('mouseleave', function() {
-                this.style.textShadow = '';
-            });
-        });
-        
-        console.log('军事态势指挥中心已启动 - 战术分析系统在线...');
-        
-        // 模拟数据流
-        setInterval(() => {
-            const randomCard = document.querySelectorAll('.force-card')[Math.floor(Math.random() * 3)];
-            randomCard.style.boxShadow = '0 0 30px rgba(0, 255, 136, 0.5)';
-            setTimeout(() => {
-                randomCard.style.boxShadow = '';
-            }, 1000);
-        }, 5000);
+        console.log('专业军事分析系统已启动');
     </script>
 </body>
 </html>
