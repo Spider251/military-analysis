@@ -1,36 +1,29 @@
-# 中东地区军事战况分析系统
-
-## 🎯 项目概述
-实时监控美国、以色列、伊朗三国军事力量对比与地区战况分析。
-
-## 📊 功能特性
-- 三国兵力数据对比
-- 军事科技能力分析
-- 战略态势评估
-- 实时数据可视化
+# 中东军事态势分析系统
 
 ## 🌐 访问地址
-[https://spider251.github.io/military_analysis.html](https://spider251.github.io/military_analysis.html)
+**主页面：** https://spider251.github.io/military-analysis/
 
-## 🔧 技术栈
-- HTML5 / CSS3 / JavaScript
-- GitHub Pages 部署
-- 响应式设计
+**直接访问：** https://spider251.github.io/military-analysis/military_analysis.html
 
-## 📁 文件结构
-```
-├── military_analysis.html  # 主页面
-├── README.md              # 说明文档
-└── .nojekyll             # 禁用Jekyll
-```
+## 🎯 系统功能
+- 美以伊三国军事力量对比
+- 军事科技能力分析
+- 威胁评估与趋势预测
+- 实时数据监控
 
 ## 🚀 部署状态
-- ✅ GitHub Pages 已启用
-- ✅ 自动HTTPS
-- ✅ 全球CDN加速
+- ✅ GitHub Pages 已配置
+- ✅ 专业军事风格界面
+- ✅ 响应式设计
+- ✅ 实时数据更新
+
+## 🔧 技术说明
+- 使用 `gh-pages` 分支部署
+- 包含 `index.html` 自动跳转
+- 禁用 Jekyll 处理 (`.nojekyll`)
 
 ## 📞 技术支持
-由 🍼🔫 Reborn 军事分析系统提供技术支持
+由专业军事分析系统提供技术支持
 
 ---
 *最后更新: 2026-03-12*
